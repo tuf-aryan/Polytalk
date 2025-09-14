@@ -1,55 +1,61 @@
-<h1 align="center">✨ Fullstack Chat & Video Calling App ✨</h1>
+# Key Features:
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+- 🔐 Authentication with JWT-based login & signup flows
+- 📄 Onboarding Flow
+- 👥 Friends System
+- 💬 Real-Time Chat
+- 📹 Video Calling
+- 🎨 32 UI Themes
+- 🚨 Protected Routes
+- 🛠️ Custom Hooks & Best Practices
+- 🧪 API Testing: Build and test endpoints for reliability
+- 🚀 Deployment Ready
 
-Highlights:
+# Tech Stack:
 
-- 🌐 Real-time Messaging with Typing Indicators & Reactions
-- 📹 1-on-1 and Group Video Calls with Screen Sharing & Recording
-- 🔐 JWT Authentication & Protected Routes
-- 🌍 Language Exchange Platform with 32 Unique UI Themes
-- ⚡ Tech Stack: React + Express + MongoDB + TailwindCSS + TanStack Query
-- 🧠 Global State Management with Zustand
-- 🚨 Error Handling (Frontend & Backend)
-- 🚀 Free Deployment
-- 🎯 Built with Scalable Technologies like Stream
-- ⏳ And much more!
+- Node.js
+- Express
+- MongoDB
+- React
+- TanStack Query
+- Tailwind
 
----
+# Backend :-
 
-## 🧪 .env Setup
+## Day-1
 
-### Backend (`/backend`)
+- create a backend and frontend folder
+- setup backend with express mongoose stream-chat 
+- setup Frontend with React ,Tailwind
+- Define userSchema 
+- Create Signup ,Login , Logout api
+- Also setup stream to upSert the Users
 
-```
-PORT=5001
-MONGO_URI=your_mongo_uri
-STEAM_API_KEY=your_steam_api_key
-STEAM_API_SECRET=your_steam_api_secret
-JWT_SECRET_KEY=your_jwt_secret
-NODE_ENV=development
-```
+## Day-2
 
-### Frontend (`/frontend`)
+- creata a api end for recommended Users
+- create a api end for My friends List
+- create a FriendRequest Model to store all friends
+- create a api end for send friend-request 
+- create a api end for accpting friend-request
 
-```
-VITE_STREAM_API_KEY=your_stream_api_key
-```
+## Day-3
 
----
+- create a chat route 
+- create a api end point for get all freind request
 
-## 🔧 Run the Backend
 
-```bash
-cd backend
-npm install
-npm run dev
-```
+# Frontend :-
 
-## 💻 Run the Frontend
+## Day-4
 
-```bash
-cd frontend
-npm install
-npm run dev
-```
+- Setup tailwindCss
+- setup DaisyUi 
+- setup ReactRouter from diffrent pages
+- setup React hot Toast for (Hot React Notification)
+- setup Tanstack Query for Fetching data (use docs for apply) 
+  - for delete = use post,put,delete
+  - for get = use tanstack queries
+- assests extracted  from Storyset website
+- setup lucide-react (for icons)
+- Signup form create making api call for signup and finally redirect to onboarding page
